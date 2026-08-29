@@ -94,6 +94,5 @@ java --module-path <caminho-javafx-sdk>/lib --add-modules javafx.controls,javafx
 
 **Carolina de Moraes Carneiro**
 Projeto desenvolvido para a disciplina de Programação Concorrente.
-- **Threads** (`java.lang.Thread`) para o movimento independente de cada trem
 
 ## 📁 Estrutura do projeto
