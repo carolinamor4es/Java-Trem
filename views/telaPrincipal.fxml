@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="696.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaController">
+   <children>
+      <ImageView fitHeight="566.0" fitWidth="696.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/tela.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="backMenuButton" layoutX="17.0" layoutY="19.0" mnemonicParsing="false" onAction="#backActionButton" prefHeight="39.0" prefWidth="96.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" />
+      <Button fx:id="resetButton" layoutX="95.0" layoutY="222.0" mnemonicParsing="false" onAction="#resetaTrens" prefHeight="32.0" prefWidth="81.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" />
+      <Button fx:id="maisTrem1Button" layoutX="179.0" layoutY="222.0" mnemonicParsing="false" onAction="#aumentaTrem1" prefHeight="32.0" prefWidth="41.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" />
+      <Button fx:id="menosTrem1Buttom" layoutX="57.0" layoutY="222.0" mnemonicParsing="false" onAction="#diminuiTrem1" prefHeight="32.0" prefWidth="35.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" />
+      <Button fx:id="menosTrem2Button" layoutX="506.0" layoutY="222.0" mnemonicParsing="false" onAction="#diminuiTrem2" prefHeight="32.0" prefWidth="41.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" />
+      <Button fx:id="maisTrem2Button" layoutX="629.0" layoutY="222.0" mnemonicParsing="false" onAction="#aumentaTrem2" prefHeight="32.0" prefWidth="47.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" />
+      <Button fx:id="resetButton2" layoutX="548.0" layoutY="222.0" mnemonicParsing="false" onAction="#resetaTrens2" prefHeight="32.0" prefWidth="81.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" />
+      <ImageView fx:id="tremAmarelo" fitHeight="32.0" fitWidth="13.0" layoutX="330.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@image/tremAmarelo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tremAzul" fitHeight="32.0" fitWidth="11.0" layoutX="400.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@image/tremAzul.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
